@@ -1,0 +1,111 @@
+body{
+    margin:0;
+    font-family: cursive;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width:1170px;
+    padding:0 15px;
+    margin:0 auto;
+}
+header{
+    height:60px;
+    width:100%;
+    background-color:rgba(67, 109, 67, 0.7);
+    position:fixed;
+    top:0;
+    z-index: 10;
+}
+.logo{
+    width:150px;
+    margin-top:20px;
+}
+.header-left{
+    float:left;
+}
+.top-wrapper{
+    height:360px;
+    padding:180px 0px 180px 0px;
+    background-image: url("https://github.com/argas0207/site1/blob/master/wallpaperbetter%20(1).jpg?raw=true");
+    margin-bottom:0;
+    background-size: cover;
+    text-align: center;
+    color:white;
+}
+.heading{
+    font-size:normal;
+    margin-bottom:20px;
+}
+.top-wrapper h1{
+    opacity: 0.7;
+    font-size:55px;
+    letter-spacing: 5px;
+}
+.top-wrapper p{
+    opacity: 0.7;
+}
+.story{
+    height:400px;
+    text-align:center;
+    
+}
+.story h1{
+    font-weight:normal;
+    width:100%;
+}
+.charms{
+    
+    height:200px;
+    padding-bottom:70px;
+}
+.charm{
+    width:250px;
+    margin:40px 20px;
+    float:right;
+    background-color: rgb(68, 116, 68);
+    border-radius: 4px;
+    text-align: center;
+}
+.charm p{
+    padding-left:20px;
+    font-size:12px;
+    width:80%;
+    color:white;
+}
+.charm h5{
+    font-weight:normal;
+    color:white;
+}
+footer{
+    padding-top:30px;
+
+    background-color: rgb(50, 122, 81);
+}
+footer img{
+    width:200px;
+    
+}
+.btn{
+    padding:15px 40px;
+    background-color: rgb(24, 136, 72);
+    cursor:pointer;
+    box-shadow: 0 5px #0a330a;
+    border-radius: 8px;
+    margin-left:20px;
+}
+
+.btn:active{
+    position: relative;
+    top:6px;
+    box-shadow: none;
+}
+.message{
+    height:360px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.heading h3{
+    padding-bottom:20px;
+}
